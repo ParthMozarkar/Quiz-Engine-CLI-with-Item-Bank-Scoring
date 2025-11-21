@@ -7,6 +7,7 @@ def ask_question(quesobj):
 
     while True:
         user_ans = input("Your answer: ").strip().upper()
+        print("User chose: ",user_ans)
 
         if not user_ans.isalpha() or len(user_ans) != 1:
             print("Invalid input, please enter A, B, C, or D.")

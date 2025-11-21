@@ -23,5 +23,7 @@ def main():
 
     save_score(username, correct, total)
 
-if _name_ == "_main_":
+    print(questions)
+
+if __name__ == "__main__":
     main()

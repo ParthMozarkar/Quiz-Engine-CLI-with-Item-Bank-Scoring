@@ -11,5 +11,6 @@ def save_score(username, correct, total, path="data/Leaderboard.csv"):
     with open(path, "a", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([username, correct, total, percentage, timestamp])
+        print("Saving:",username,correct,total)
 
     print("Score saved to Leaderboard.csv")
