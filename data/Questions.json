@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of India?",
+    "options": ["Delhi", "Mumbai", "Chennai", "Kolkata"],
+    "answer": 0
+  },
+  {
+    "id": 2,
+    "question": "Which language is Python written in?",
+    "options": ["C", "Java", "Python", "C++"],
+    "answer": 0
+  }
+]
