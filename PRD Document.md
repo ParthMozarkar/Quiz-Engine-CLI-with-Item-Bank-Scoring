@@ -239,7 +239,7 @@ Bank & Scoring **Project** **Type:** Product Developing
 >
 > 12\. Project Folder Structure
 >
-> project_root/ main.py quiz_engine/ \_\_init\_\_.py
+> main.py quiz_engine/ \_\_init\_\_.py
 > [<u>loader.py</u>](http://loader.py/) evaluator.py scorer.py
 > [<u>admin.py</u>](http://admin.py) data/
 >
@@ -283,3 +283,4 @@ Bank & Scoring **Project** **Type:** Product Developing
 **Mentor** **Approval:**
 
 **Date:** 18/11/2025
+
