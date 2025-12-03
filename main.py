@@ -21,6 +21,7 @@ class QuizController:
         self.current_q = 0
         self.correct = 0
 
+        self.ui.set_total_questions(len(self.questions))
         self.show_next_question()
 
     def show_next_question(self):
