@@ -237,17 +237,38 @@ Bank & Scoring **Project** **Type:** Product Developing
 >
 > • College labs, offline classrooms, low-resource systems, self-study.
 >
-> 12\. Project Folder Structure
->
-> project_root/ main.py quiz_engine/ \_\_init\_\_.py
-> [<u>loader.py</u>](http://loader.py/) evaluator.py scorer.py
-> [<u>admin.py</u>](http://admin.py) data/
->
-> Questions.json Leaderboard.csv docs/
->
-> PRD.pdf tests/
->
-> Test_loader.py Test_scorer.py README.md
+12. Project Folder Structure
+
+>project_root/
+
+>├── main.py — Entry point for the application (runs the Quiz Controller)
+>├── ui.py — Tkinter-based graphical user interface
+>├── .env — Environment file storing secure variables (ignored by Git)
+>├── .gitignore — Specifies which files/folders to ignore in version control
+>├── credentials.json — Google API credentials (ignored by Git)
+>├── requirements.txt — Python dependencies for easy setup
+>├── README.md — Project overview and usage instructions
+>├── PRD-Document.md / PRD.pdf — Product Requirement Document
+>│
+>├── quiz_engine/
+>│ ├── __init__.py — Makes this folder a Python package
+>│ ├── loader.py — Loads and shuffles questions from JSON
+>│ ├── evaluator.py — Evaluates selected answers
+>│ ├── scorer.py — Calculates scores, syncs with Google Sheets, and saves to local CSV
+>│
+>├── data/
+>│ ├── Questions.json — Stores quiz questions and options
+>│ ├── leaderboard.csv — Local backup for storing scores
+>│
+>├── docs/
+>│ ├── PRD.pdf — Product Requirement Document (finalized)
+>│
+>├── tests/
+>│ ├── test_loader.py — Unit tests for loader module
+>│ ├── test_scorer.py — Unit tests for scorer module
+>│
+>├── venv/ — Python virtual environment (ignored by Git)
+>└── test_gsheet.py — Optional script to test Google Sheets API connectivity
 >
 > 13\. Testing Strategies (Detailed)
 >
