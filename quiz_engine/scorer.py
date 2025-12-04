@@ -7,7 +7,7 @@ import os
 class CloudScorer:
     def __init__(self):
         # ⭐ REPLACE THIS WITH YOUR SPREADSHEET ID
-        self.SPREADSHEET_ID = "1wQmJBhAUMYkra6Z1OlPGETmbmU4x1aOOe5O3i0nn7Z8"
+        self.SPREADSHEET_ID = "1ZtYOPnloR2QaMW8MEU-rKrlS4s-EMkEk6oMYtiPBYn8"
         
         self.sheet = None
         self.connected = False

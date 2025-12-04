@@ -1,0 +1,13 @@
+
+venv/
+
+__pycache__/
+*.pyc
+
+credentials.json
+.env
+
+data/leaderboard.csv
+
+.DS_Store
+*.swp
